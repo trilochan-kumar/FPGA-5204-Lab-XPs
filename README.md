@@ -2,4 +2,4 @@
  - This repo contain all lab xps of 5204 FPGA for Embedded Systems course.
  - All experiments are implemented on Edge Zynq FPGA Development Board.
 
-##Status: Just started
+## **Status:** Just started
