@@ -1,0 +1,11 @@
+set_property PACKAGE_PIN P15 [get_ports A]
+set_property IOSTANDARD LVCMOS33 [get_ports A]
+set_property PACKAGE_PIN W19 [get_ports B]
+set_property PACKAGE_PIN N17 [get_ports C]
+set_property PACKAGE_PIN T17 [get_ports Carry]
+set_property IOSTANDARD LVCMOS33 [get_ports B]
+set_property IOSTANDARD LVCMOS33 [get_ports C]
+set_property IOSTANDARD LVCMOS33 [get_ports Carry]
+set_property IOSTANDARD LVCMOS33 [get_ports Sum]
+
+set_property PACKAGE_PIN R18 [get_ports Sum]

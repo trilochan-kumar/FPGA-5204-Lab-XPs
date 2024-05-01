@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\ATK\Programming\FPGA_5204\FPGA-5204-Lab-XPs\xp3\xp3b\xp3b.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

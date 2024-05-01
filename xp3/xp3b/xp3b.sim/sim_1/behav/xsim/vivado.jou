@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Thu May  2 01:58:26 2024
+# Process ID: 10476
+# Current directory: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp3/xp3b/xp3b.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3696 D:\ATK\Programming\FPGA_5204\FPGA-5204-Lab-XPs\xp3\xp3b\xp3b.sim\sim_1\behav\xsim\xp3b_behav.wdb
+# Log file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp3/xp3b/xp3b.sim/sim_1/behav/xsim/vivado.log
+# Journal file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp3/xp3b/xp3b.sim/sim_1/behav/xsim\vivado.jou
+# Running On: Lisa, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 12161 MB
+#-----------------------------------------------------------
+start_gui
+open_wave_database {D:\ATK\Programming\FPGA_5204\FPGA-5204-Lab-XPs\xp3\xp3b\xp3b.sim\sim_1\behav\xsim\xp3b_behav.wdb}
+close_sim
