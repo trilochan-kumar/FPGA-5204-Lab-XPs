@@ -1,7 +1,0 @@
-Running: xsim.dir/xp_2a_behav/xsimk.exe -simmode gui -wdb xp_2a_behav.wdb -simrunnum 0 -socket 60557
-Design successfully loaded
-Design Loading Memory Usage: 8596 KB (Peak: 8596 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 9196 KB (Peak: 9196 KB)
-Simulation CPU Usage: 46 ms

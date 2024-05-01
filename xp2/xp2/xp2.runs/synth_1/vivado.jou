@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Wed May  1 21:20:11 2024
+# Process ID: 16916
+# Current directory: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp2/xp2/xp2.runs/synth_1
+# Command line: vivado.exe -log xp_2a.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xp_2a.tcl
+# Log file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp2/xp2/xp2.runs/synth_1/xp_2a.vds
+# Journal file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp2/xp2/xp2.runs/synth_1\vivado.jou
+# Running On: Lisa, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 12161 MB
+#-----------------------------------------------------------
+source xp_2a.tcl -notrace
