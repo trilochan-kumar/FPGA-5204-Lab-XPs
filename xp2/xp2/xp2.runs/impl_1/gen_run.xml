@@ -4,67 +4,60 @@
   <File Type="PA-TCL" Name="xp_2a.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="xp_2a_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="xp_2a_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="xp_2a_rqa_opted.pb"/>
+  <File Type="BITSTR-MSK" Name="xp_2a.msk"/>
+  <File Type="ROUTE-CLK" Name="xp_2a_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="xp_2a.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="xp_2a_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="xp_2a.bit"/>
+  <File Type="BG-DRC" Name="xp_2a.drc"/>
+  <File Type="BG-BGN" Name="xp_2a.bgn"/>
+  <File Type="BG-BIN" Name="xp_2a.bin"/>
+  <File Type="BITSTR-RBT" Name="xp_2a.rbt"/>
+  <File Type="BITSTR-NKY" Name="xp_2a.nky"/>
+  <File Type="BITSTR-BMM" Name="xp_2a_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="xp_2a.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="xp_2a_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="xp_2a_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="xp_2a_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="xp_2a_opt.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="xp_2a_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="xp_2a.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="xp_2a.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-DRC" Name="xp_2a_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="xp_2a.hwdef"/>
-  <File Type="PWROPT-DCP" Name="xp_2a_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="xp_2a_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="xp_2a_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="xp_2a_placed.dcp"/>
   <File Type="PLACE-IO" Name="xp_2a_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="xp_2a_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="xp_2a_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="xp_2a_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="xp_2a_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="xp_2a_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="xp_2a_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="xp_2a.bin"/>
-  <File Type="PLACE-TIMING" Name="xp_2a_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="xp_2a_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="xp_2a_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="xp_2a_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="xp_2a.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="xp_2a_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="xp_2a_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="xp_2a_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="xp_2a.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="xp_2a_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="xp_2a_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="xp_2a_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="xp_2a_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="xp_2a_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="xp_2a_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="xp_2a_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="xp_2a_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="xp_2a_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="xp_2a_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="xp_2a_rqs_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="xp_2a_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="xp_2a_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="xp_2a_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="xp_2a_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="xp_2a_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="xp_2a_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="xp_2a_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="xp_2a_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="xp_2a_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="xp_2a_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="xp_2a_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="xp_2a_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="xp_2a_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="xp_2a_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="xp_2a_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="xp_2a_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="xp_2a_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="xp_2a_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="xp_2a_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="xp_2a_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="xp_2a_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="xp_2a_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="xp_2a_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="xp_2a_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="xp_2a_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="xp_2a.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="xp_2a_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="xp_2a_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="xp_2a.nky"/>
-  <File Type="BITSTR-BMM" Name="xp_2a_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="xp_2a_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="xp_2a_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="xp_2a_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="xp_2a.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="xp_2a_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="xp_2a_pld.pdi"/>
@@ -73,13 +66,6 @@
   <File Type="RNPI_FILE" Name="xp_2a.rnpi"/>
   <File Type="NPI_FILE" Name="xp_2a.npi"/>
   <File Type="RBD_FILE" Name="xp_2a.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="xp_2a.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="xp_2a.sysdef"/>
-  <File Type="BG-BGN" Name="xp_2a.bgn"/>
-  <File Type="BG-DRC" Name="xp_2a.drc"/>
-  <File Type="RDI-RDI" Name="xp_2a.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="xp_2a_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="xp_2a_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -127,9 +113,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -139,5 +123,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

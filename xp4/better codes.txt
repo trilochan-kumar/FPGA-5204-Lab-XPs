@@ -1,0 +1,5 @@
+D FF (with Asynchronous Reset) : https://vlsiverify.com/verilog/verilog-codes/dff-with-asynchronous-reset/
+D FF (with Synchronous Reset)  : https://vlsiverify.com/verilog/verilog-codes/dff-with-synchronous-reset/
+SR FF : https://vlsiverify.com/verilog/verilog-codes/sr-flip-flop/
+JK FF : https://vlsiverify.com/verilog/verilog-codes/jk-flip-flop/
+T FF  : https://vlsiverify.com/verilog/verilog-codes/t-flip-flop/

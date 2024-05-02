@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2.2 (win64) Build 4126759 Thu Feb  8 23:53:51 MST 2024
-| Date         : Thu May  2 15:20:39 2024
+| Date         : Thu May  2 15:40:48 2024
 | Host         : Lisa running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -report_unconstrained -file xp4d_timing_summary_routed.rpt -pb xp4d_timing_summary_routed.pb -rpx xp4d_timing_summary_routed.rpx -warn_on_violation
 | Design       : xp4d
@@ -266,17 +266,17 @@ Slack:                    inf
   Destination:            q_reg/D
   Path Group:             (none)
   Path Type:              Max at Slow Process Corner
-  Data Path Delay:        3.724ns  (logic 1.715ns (46.050%)  route 2.009ns (53.950%))
+  Data Path Delay:        3.507ns  (logic 1.719ns (49.017%)  route 1.788ns (50.983%))
   Logic Levels:           2  (IBUF=1 LUT2=1)
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    W15                                               0.000     0.000 r  t (IN)
+    V15                                               0.000     0.000 r  t (IN)
                          net (fo=0)                   0.000     0.000    t
-    W15                  IBUF (Prop_ibuf_I_O)         1.563     1.563 r  t_IBUF_inst/O
-                         net (fo=1, routed)           2.009     3.572    t_IBUF
-    SLICE_X43Y10         LUT2 (Prop_lut2_I0_O)        0.152     3.724 r  q_i_1/O
-                         net (fo=1, routed)           0.000     3.724    q_i_1_n_0
+    V15                  IBUF (Prop_ibuf_I_O)         1.569     1.569 r  t_IBUF_inst/O
+                         net (fo=1, routed)           1.788     3.357    t_IBUF
+    SLICE_X43Y10         LUT2 (Prop_lut2_I0_O)        0.150     3.507 r  q_i_1/O
+                         net (fo=1, routed)           0.000     3.507    q_i_1_n_0
     SLICE_X43Y10         FDRE                                         r  q_reg/D
   -------------------------------------------------------------------    -------------------
 
