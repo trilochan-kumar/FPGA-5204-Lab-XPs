@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Thu May  2 17:54:13 2024
+# Process ID: 15428
+# Current directory: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp5/xp5/xp5.runs/impl_1
+# Command line: vivado.exe -log relay_control.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source relay_control.tcl -notrace
+# Log file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp5/xp5/xp5.runs/impl_1/relay_control.vdi
+# Journal file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp5/xp5/xp5.runs/impl_1\vivado.jou
+# Running On: Lisa, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 12161 MB
+#-----------------------------------------------------------
+source relay_control.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 481.031 ; gain = 186.832
+Command: link_design -top relay_control -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 879.246 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
