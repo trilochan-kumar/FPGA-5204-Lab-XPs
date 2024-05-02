@@ -3,32 +3,26 @@
 # SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
 # IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
 # SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
-# Start of session at: Thu May  2 19:53:09 2024
-# Process ID: 17928
-# Current directory: D:/ATK/Programming/FPGA_6204/EDGE ZYNQ FPGA kit Documentation/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5328 D:\ATK\Programming\FPGA_6204\EDGE ZYNQ FPGA kit Documentation\EDGE_ZYNQ_7010_CODES\PL_EXAMPLES\CH6_XADC_WIFI\xadc_new.xpr
-# Log file: D:/ATK/Programming/FPGA_6204/EDGE ZYNQ FPGA kit Documentation/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/vivado.log
-# Journal file: D:/ATK/Programming/FPGA_6204/EDGE ZYNQ FPGA kit Documentation/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI\vivado.jou
+# Start of session at: Thu May  2 20:27:22 2024
+# Process ID: 17468
+# Current directory: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp7/CH6_XADC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18132 D:\ATK\Programming\FPGA_5204\FPGA-5204-Lab-XPs\xp7\CH6_XADC\xadc_new.xpr
+# Log file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp7/CH6_XADC/vivado.log
+# Journal file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp7/CH6_XADC\vivado.jou
 # Running On: Lisa, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 12161 MB
 #-----------------------------------------------------------
 start_gui
-open_project {D:/ATK/Programming/FPGA_6204/EDGE ZYNQ FPGA kit Documentation/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/xadc_new.xpr}
+open_project D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp7/CH6_XADC/xadc_new.xpr
 update_compile_order -fileset sources_1
 open_hw_manager
 connect_hw_server -allow_non_jtag
 open_hw_target
-set_property PROGRAM.FILE {D:/ATK/Programming/FPGA_6204/EDGE ZYNQ FPGA kit Documentation/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/xadc_new.runs/impl_4/sensor_out.bit} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp7/CH6_XADC/xadc_new.runs/impl_4/sensor_out.bit} [get_hw_devices xc7z010_1]
 current_hw_device [get_hw_devices xc7z010_1]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
 refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
 set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
-set_property PROGRAM.FILE {D:/ATK/Programming/FPGA_6204/EDGE ZYNQ FPGA kit Documentation/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/xadc_new.runs/impl_4/sensor_out.bit} [get_hw_devices xc7z010_1]
-program_hw_devices [get_hw_devices xc7z010_1]
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
-set_property PROGRAM.FILE {D:/ATK/Programming/FPGA_6204/EDGE ZYNQ FPGA kit Documentation/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/xadc_new.runs/impl_4/sensor_out.bit} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp7/CH6_XADC/xadc_new.runs/impl_4/sensor_out.bit} [get_hw_devices xc7z010_1]
 program_hw_devices [get_hw_devices xc7z010_1]
 refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
