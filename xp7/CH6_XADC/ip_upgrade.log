@@ -1,0 +1,225 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Nov 12 11:18:52 2020
+| Host         : DESKTOP-3S607QA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'xadc_wiz_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of xadc_wiz_0 (xilinx.com:ip:xadc_wiz:3.3 (Rev. 6)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'VCCDDRO_ALARM_LOWER' from '1.2' to '1.15' has been ignored for IP 'xadc_wiz_0'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:xadc_wiz:3.3 -user_name xadc_wiz_0
+set_property -dict "\
+  CONFIG.ACQUISITION_TIME {4} \
+  CONFIG.ACQUISITION_TIME_VAUXP0_VAUXN0 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP10_VAUXN10 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP11_VAUXN11 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP12_VAUXN12 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP13_VAUXN13 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP14_VAUXN14 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP15_VAUXN15 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP1_VAUXN1 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP2_VAUXN2 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP3_VAUXN3 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP4_VAUXN4 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP5_VAUXN5 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP6_VAUXN6 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP7_VAUXN7 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP8_VAUXN8 {false} \
+  CONFIG.ACQUISITION_TIME_VAUXP9_VAUXN9 {false} \
+  CONFIG.ACQUISITION_TIME_VP_VN {false} \
+  CONFIG.ADC_CONVERSION_RATE {962} \
+  CONFIG.ADC_OFFSET_AND_GAIN_CALIBRATION {true} \
+  CONFIG.ADC_OFFSET_CALIBRATION {false} \
+  CONFIG.ADDR_WIDTH {32} \
+  CONFIG.AVERAGE_ENABLE_TEMPERATURE {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP0_VAUXN0 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP10_VAUXN10 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP11_VAUXN11 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP12_VAUXN12 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP13_VAUXN13 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP14_VAUXN14 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP15_VAUXN15 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP1_VAUXN1 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP2_VAUXN2 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP3_VAUXN3 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP4_VAUXN4 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP5_VAUXN5 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP6_VAUXN6 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP7_VAUXN7 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP8_VAUXN8 {false} \
+  CONFIG.AVERAGE_ENABLE_VAUXP9_VAUXN9 {false} \
+  CONFIG.AVERAGE_ENABLE_VBRAM {false} \
+  CONFIG.AVERAGE_ENABLE_VCCAUX {false} \
+  CONFIG.AVERAGE_ENABLE_VCCDDRO {false} \
+  CONFIG.AVERAGE_ENABLE_VCCINT {false} \
+  CONFIG.AVERAGE_ENABLE_VCCPAUX {false} \
+  CONFIG.AVERAGE_ENABLE_VCCPINT {false} \
+  CONFIG.AVERAGE_ENABLE_VP_VN {false} \
+  CONFIG.BIPOLAR_OPERATION {false} \
+  CONFIG.BIPOLAR_VAUXP0_VAUXN0 {false} \
+  CONFIG.BIPOLAR_VAUXP10_VAUXN10 {false} \
+  CONFIG.BIPOLAR_VAUXP11_VAUXN11 {false} \
+  CONFIG.BIPOLAR_VAUXP12_VAUXN12 {false} \
+  CONFIG.BIPOLAR_VAUXP13_VAUXN13 {false} \
+  CONFIG.BIPOLAR_VAUXP14_VAUXN14 {false} \
+  CONFIG.BIPOLAR_VAUXP15_VAUXN15 {false} \
+  CONFIG.BIPOLAR_VAUXP1_VAUXN1 {false} \
+  CONFIG.BIPOLAR_VAUXP2_VAUXN2 {false} \
+  CONFIG.BIPOLAR_VAUXP3_VAUXN3 {false} \
+  CONFIG.BIPOLAR_VAUXP4_VAUXN4 {false} \
+  CONFIG.BIPOLAR_VAUXP5_VAUXN5 {false} \
+  CONFIG.BIPOLAR_VAUXP6_VAUXN6 {false} \
+  CONFIG.BIPOLAR_VAUXP7_VAUXN7 {false} \
+  CONFIG.BIPOLAR_VAUXP8_VAUXN8 {false} \
+  CONFIG.BIPOLAR_VAUXP9_VAUXN9 {false} \
+  CONFIG.BIPOLAR_VP_VN {false} \
+  CONFIG.CHANNEL_AVERAGING {None} \
+  CONFIG.CHANNEL_ENABLE_CALIBRATION {false} \
+  CONFIG.CHANNEL_ENABLE_TEMPERATURE {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP0_VAUXN0 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP10_VAUXN10 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP11_VAUXN11 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP12_VAUXN12 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP13_VAUXN13 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP14_VAUXN14 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP15_VAUXN15 {true} \
+  CONFIG.CHANNEL_ENABLE_VAUXP1_VAUXN1 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP2_VAUXN2 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP3_VAUXN3 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP4_VAUXN4 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP5_VAUXN5 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP6_VAUXN6 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP7_VAUXN7 {true} \
+  CONFIG.CHANNEL_ENABLE_VAUXP8_VAUXN8 {false} \
+  CONFIG.CHANNEL_ENABLE_VAUXP9_VAUXN9 {false} \
+  CONFIG.CHANNEL_ENABLE_VBRAM {false} \
+  CONFIG.CHANNEL_ENABLE_VCCAUX {false} \
+  CONFIG.CHANNEL_ENABLE_VCCDDRO {false} \
+  CONFIG.CHANNEL_ENABLE_VCCINT {false} \
+  CONFIG.CHANNEL_ENABLE_VCCPAUX {false} \
+  CONFIG.CHANNEL_ENABLE_VCCPINT {false} \
+  CONFIG.CHANNEL_ENABLE_VP_VN {false} \
+  CONFIG.CHANNEL_ENABLE_VREFN {false} \
+  CONFIG.CHANNEL_ENABLE_VREFP {false} \
+  CONFIG.Component_Name {xadc_wiz_0} \
+  CONFIG.DATA_WIDTH {32} \
+  CONFIG.DCLK_FREQUENCY {50} \
+  CONFIG.ENABLE_AXI4STREAM {false} \
+  CONFIG.ENABLE_BUSY {true} \
+  CONFIG.ENABLE_CALIBRATION_AVERAGING {true} \
+  CONFIG.ENABLE_CHANNEL {true} \
+  CONFIG.ENABLE_CONVST {true} \
+  CONFIG.ENABLE_CONVSTCLK {false} \
+  CONFIG.ENABLE_DCLK {true} \
+  CONFIG.ENABLE_DRP {true} \
+  CONFIG.ENABLE_EOC {true} \
+  CONFIG.ENABLE_EOS {true} \
+  CONFIG.ENABLE_EXTERNAL_MUX {false} \
+  CONFIG.ENABLE_JTAGBUSY {true} \
+  CONFIG.ENABLE_JTAGLOCKED {true} \
+  CONFIG.ENABLE_JTAGMODIFIED {true} \
+  CONFIG.ENABLE_JTAG_ARBITER {false} \
+  CONFIG.ENABLE_RESET {true} \
+  CONFIG.ENABLE_TEMP_BUS {false} \
+  CONFIG.ENABLE_VBRAM_ALARM {false} \
+  CONFIG.ENABLE_VCCDDRO_ALARM {false} \
+  CONFIG.ENABLE_VCCPAUX_ALARM {false} \
+  CONFIG.ENABLE_VCCPINT_ALARM {false} \
+  CONFIG.EXTERNAL_MUXADDR_ENABLE {false} \
+  CONFIG.EXTERNAL_MUX_CHANNEL {VP_VN} \
+  CONFIG.FIFO_DEPTH {7} \
+  CONFIG.INCREASE_ACQUISITION_TIME {false} \
+  CONFIG.INTERFACE_SELECTION {ENABLE_DRP} \
+  CONFIG.NUM_WAVE {1} \
+  CONFIG.OT_ALARM {false} \
+  CONFIG.POWER_DOWN_ADCA {false} \
+  CONFIG.POWER_DOWN_ADCB {false} \
+  CONFIG.SENSOR_OFFSET_AND_GAIN_CALIBRATION {true} \
+  CONFIG.SENSOR_OFFSET_CALIBRATION {false} \
+  CONFIG.SEQUENCER_MODE {Continuous} \
+  CONFIG.SIM_FILE_NAME {design} \
+  CONFIG.SIM_FILE_REL_PATH {./} \
+  CONFIG.SIM_FILE_SEL {Default} \
+  CONFIG.SINGLE_CHANNEL_ACQUISITION_TIME {false} \
+  CONFIG.SINGLE_CHANNEL_ENABLE_CALIBRATION {true} \
+  CONFIG.SINGLE_CHANNEL_SELECTION {TEMPERATURE} \
+  CONFIG.STARTUP_CHANNEL_SELECTION {single_channel} \
+  CONFIG.STIMULUS_FREQ {1.0} \
+  CONFIG.TEMPERATURE_ALARM_OT_RESET {70.0} \
+  CONFIG.TEMPERATURE_ALARM_OT_TRIGGER {125.0} \
+  CONFIG.TEMPERATURE_ALARM_RESET {60.0} \
+  CONFIG.TEMPERATURE_ALARM_TRIGGER {85.0} \
+  CONFIG.TIMING_MODE {Continuous} \
+  CONFIG.USER_TEMP_ALARM {false} \
+  CONFIG.VBRAM_ALARM_LOWER {0.95} \
+  CONFIG.VBRAM_ALARM_UPPER {1.05} \
+  CONFIG.VCCAUX_ALARM {false} \
+  CONFIG.VCCAUX_ALARM_LOWER {1.75} \
+  CONFIG.VCCAUX_ALARM_UPPER {1.89} \
+  CONFIG.VCCDDRO_ALARM_LOWER {1.15} \
+  CONFIG.VCCDDRO_ALARM_UPPER {1.25} \
+  CONFIG.VCCDDRO_VOLT {1_2} \
+  CONFIG.VCCINT_ALARM {false} \
+  CONFIG.VCCINT_ALARM_LOWER {0.97} \
+  CONFIG.VCCINT_ALARM_UPPER {1.03} \
+  CONFIG.VCCPAUX_ALARM_LOWER {1.71} \
+  CONFIG.VCCPAUX_ALARM_UPPER {1.8} \
+  CONFIG.VCCPINT_ALARM_LOWER {0.95} \
+  CONFIG.VCCPINT_ALARM_UPPER {1.00} \
+  CONFIG.WAVEFORM_TYPE {CONSTANT} \
+  CONFIG.XADC_STARUP_SELECTION {channel_sequencer} \
+  CONFIG.dclk_in.ASSOCIATED_BUSIF {} \
+  CONFIG.dclk_in.ASSOCIATED_RESET {} \
+  CONFIG.dclk_in.CLK_DOMAIN {} \
+  CONFIG.dclk_in.FREQ_HZ {100000000} \
+  CONFIG.dclk_in.INSERT_VIP {0} \
+  CONFIG.dclk_in.PHASE {0.000} \
+  CONFIG.reset_in.INSERT_VIP {0} \
+  CONFIG.reset_in.POLARITY {ACTIVE_HIGH} " [get_ips xadc_wiz_0]
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Oct  3 18:11:03 2020
+| Host         : DESKTOP-3S607QA running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tftg256-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'xadc_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of xadc_wiz_0 (xilinx.com:ip:xadc_wiz:3.3) from (Rev. 5) to (Rev. 6)
+

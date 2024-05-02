@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 16 16:02:02 2021
+# Process ID: 9536
+# Current directory: D:/project_codes/madesh_backup/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/xadc_new.runs/impl_4
+# Command line: vivado.exe -log sensor_out.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sensor_out.tcl -notrace
+# Log file: D:/project_codes/madesh_backup/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/xadc_new.runs/impl_4/sensor_out.vdi
+# Journal file: D:/project_codes/madesh_backup/EDGE_ZYNQ_7010_CODES/PL_EXAMPLES/CH6_XADC_WIFI/xadc_new.runs/impl_4\vivado.jou
+#-----------------------------------------------------------
+source sensor_out.tcl -notrace

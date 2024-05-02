@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="XADC_TEST_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="XADC_TEST_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="97088234997950fs"></ZoomStartTime>
+      <ZoomEndTime time="97088235000411fs"></ZoomEndTime>
+      <Cursor1Time time="97088235000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="173"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/XADC_TEST_tb/DUT/daddr_in" type="array">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/den_in" type="logic">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/di_in" type="array">
+      <obj_property name="ElementShortName">di_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">di_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/dwe_in" type="logic">
+      <obj_property name="ElementShortName">dwe_in</obj_property>
+      <obj_property name="ObjectShortName">dwe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/do_out" type="array">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/dclk_in" type="logic">
+      <obj_property name="ElementShortName">dclk_in</obj_property>
+      <obj_property name="ObjectShortName">dclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/reset_in" type="logic">
+      <obj_property name="ElementShortName">reset_in</obj_property>
+      <obj_property name="ObjectShortName">reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/vauxp7" type="logic">
+      <obj_property name="ElementShortName">vauxp7</obj_property>
+      <obj_property name="ObjectShortName">vauxp7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/vauxn7" type="logic">
+      <obj_property name="ElementShortName">vauxn7</obj_property>
+      <obj_property name="ObjectShortName">vauxn7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/vauxp15" type="logic">
+      <obj_property name="ElementShortName">vauxp15</obj_property>
+      <obj_property name="ObjectShortName">vauxp15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/vauxn15" type="logic">
+      <obj_property name="ElementShortName">vauxn15</obj_property>
+      <obj_property name="ObjectShortName">vauxn15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/busy_out" type="logic">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/channel_out" type="array">
+      <obj_property name="ElementShortName">channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/eoc_out" type="logic">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/eos_out" type="logic">
+      <obj_property name="ElementShortName">eos_out</obj_property>
+      <obj_property name="ObjectShortName">eos_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/alarm_out" type="logic">
+      <obj_property name="ElementShortName">alarm_out</obj_property>
+      <obj_property name="ObjectShortName">alarm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/vp_in" type="logic">
+      <obj_property name="ElementShortName">vp_in</obj_property>
+      <obj_property name="ObjectShortName">vp_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/vn_in" type="logic">
+      <obj_property name="ElementShortName">vn_in</obj_property>
+      <obj_property name="ObjectShortName">vn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/FLOAT_VCCAUX_ALARM" type="logic">
+      <obj_property name="ElementShortName">FLOAT_VCCAUX_ALARM</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_VCCAUX_ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/FLOAT_VCCINT_ALARM" type="logic">
+      <obj_property name="ElementShortName">FLOAT_VCCINT_ALARM</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_VCCINT_ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/FLOAT_USER_TEMP_ALARM" type="logic">
+      <obj_property name="ElementShortName">FLOAT_USER_TEMP_ALARM</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_USER_TEMP_ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/FLOAT_VBRAM_ALARM" type="logic">
+      <obj_property name="ElementShortName">FLOAT_VBRAM_ALARM</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_VBRAM_ALARM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/FLOAT_MUXADDR" type="array">
+      <obj_property name="ElementShortName">FLOAT_MUXADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FLOAT_MUXADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/aux_channel_p" type="array">
+      <obj_property name="ElementShortName">aux_channel_p[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aux_channel_p[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/aux_channel_n" type="array">
+      <obj_property name="ElementShortName">aux_channel_n[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aux_channel_n[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/XADC_TEST_tb/DUT/alm_int" type="array">
+      <obj_property name="ElementShortName">alm_int[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alm_int[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,103 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Apr 16 16:03:05 2021
+| Host         : shahul-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file sensor_out_control_sets_placed.rpt
+| Design       : sensor_out
+| Device       : xc7z010
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    25 |
+|    Minimum number of control sets                        |    25 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    38 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    25 |
+| >= 0 to < 4        |     4 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |    12 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              42 |           16 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              37 |           14 |
+| Yes          | No                    | No                     |             135 |           42 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             108 |           32 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------+--------------------------+------------------+----------------+
+|  Clock Signal  |       Enable Signal      |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------+--------------------------+--------------------------+------------------+----------------+
+|  clk_IBUF_BUFG | L1/lcd_rs_i_2_n_0        | L1/lcd_rs_reg_i_1_n_0    |                1 |              1 |
+|  clk_IBUF_BUFG | L1/lcd_clk1              | L1/lcd_clk1_carry__2_n_0 |                1 |              1 |
+|  baud_clk__0   | W1/txd_i_2_n_0           | W1/txd_i_1_n_0           |                1 |              1 |
+|  baud_clk__0   |                          |                          |                2 |              3 |
+|  clk_IBUF_BUFG |                          | W1/baud_count[4]_i_1_n_0 |                1 |              5 |
+|  clk_IBUF_BUFG | L1/data[7]_i_1_n_0       |                          |                4 |              8 |
+|  clk_IBUF_BUFG | B1/sel                   | B1/ones[7]_i_1_n_0       |                2 |              8 |
+|  clk_IBUF_BUFG | B1/ones[7]_i_2_n_0       | B1/ones[7]_i_1_n_0       |                2 |              8 |
+|  clk_IBUF_BUFG | B1/bin[7]_i_1_n_0        |                          |                3 |              8 |
+|  clk_IBUF_BUFG | A1/ldr_out[7]_i_1_n_0    |                          |                1 |              8 |
+|  clk_IBUF_BUFG | B1/tens[7]_i_1_n_0       | B1/ones[7]_i_1_n_0       |                2 |              8 |
+|  clk_IBUF_BUFG | B2/bin[7]_i_1__0_n_0     |                          |                2 |              8 |
+|  clk_IBUF_BUFG | B2/hudreds[7]_i_1__0_n_0 | B2/ones[7]_i_1__0_n_0    |                2 |              8 |
+|  clk_IBUF_BUFG | B2/ones[7]_i_2__0_n_0    | B2/ones[7]_i_1__0_n_0    |                2 |              8 |
+|  clk_IBUF_BUFG | B2/tens[7]_i_1__0_n_0    | B2/ones[7]_i_1__0_n_0    |                2 |              8 |
+|  baud_clk__0   | W1/store                 |                          |                4 |              8 |
+|  baud_clk__0   | W1/tx_data[31]_i_2_n_0   | W1/tx_data[5]_i_1_n_0    |                3 |              8 |
+|  baud_clk__0   | W1/end_delay[31]_i_1_n_0 |                          |                7 |             15 |
+|  baud_clk__0   | W1/end_delay[31]_i_1_n_0 | W1/end_delay[23]_i_1_n_0 |                5 |             17 |
+|  clk_IBUF_BUFG | B1/bcd0[7]_i_1_n_0       |                          |                7 |             24 |
+|  clk_IBUF_BUFG | B2/bcd0[7]_i_1__0_n_0    |                          |                6 |             24 |
+|  clk_IBUF_BUFG | L1/lcd_clk0              |                          |                8 |             32 |
+|  baud_clk__0   |                          | W1/data_len[31]_i_1_n_0  |               13 |             32 |
+|  baud_clk__0   | W1/tx_data[31]_i_2_n_0   | W1/tx_data[31]_i_1_n_0   |                9 |             32 |
+|  clk_IBUF_BUFG |                          |                          |               14 |             39 |
++----------------+--------------------------+--------------------------+------------------+----------------+
+
+
