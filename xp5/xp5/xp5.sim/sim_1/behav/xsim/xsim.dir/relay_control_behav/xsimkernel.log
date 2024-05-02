@@ -1,0 +1,4 @@
+Running: xsim.dir/relay_control_behav/xsimk.exe -simmode gui -wdb relay_control_behav.wdb -simrunnum 0 -socket 55271
+Design successfully loaded
+Design Loading Memory Usage: 7928 KB (Peak: 7928 KB)
+Design Loading CPU Usage: 0 ms
