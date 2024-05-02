@@ -2,3 +2,6 @@ Running: xsim.dir/xp4b_behav/xsimk.exe -simmode gui -wdb xp4b_behav.wdb -simrunn
 Design successfully loaded
 Design Loading Memory Usage: 7976 KB (Peak: 7976 KB)
 Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8500 KB (Peak: 8500 KB)
+Simulation CPU Usage: 0 ms
