@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Fri May  3 08:28:41 2024
+# Process ID: 11960
+# Current directory: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp5/xp5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3880 D:\ATK\Programming\FPGA_5204\FPGA-5204-Lab-XPs\xp5\xp5\xp5.xpr
+# Log file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp5/xp5/vivado.log
+# Journal file: D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp5/xp5\vivado.jou
+# Running On: Lisa, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 12161 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ATK/Programming/FPGA_5204/FPGA-5204-Lab-XPs/xp5/xp5/xp5.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
